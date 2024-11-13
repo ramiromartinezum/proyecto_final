@@ -7,7 +7,7 @@ pipeline {
             steps {
                 // Instalar dependencias si es necesario
                 // Ejecutar el script principal
-                bat 'py main.py'
+                bat 'python3 main.py'
             }
         }
     }
